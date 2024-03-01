@@ -1,4 +1,5 @@
-﻿apiVersion: constraints.gatekeeper.sh/v1beta1
+﻿# this apiVersion is dynamically generated at the time that a template is installed
+apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sContainerLimits
 metadata:
   name: container-must-have-limits

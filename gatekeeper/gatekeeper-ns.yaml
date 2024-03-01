@@ -1,0 +1,5 @@
+﻿# yaml for creating kubernetes namespace system-policy
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: gatekeeper
